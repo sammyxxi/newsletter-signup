@@ -22,4 +22,39 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    width: 70%;
+}
+
+.sign-up {
+    padding: 0 20px;
+}
+
+h1 {
+    color: var(--color-dark-grey);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+p {
+    color: var(--color-charcoal-grey);
+    font: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+li {
+    list-style: none;
+    color: var(--color-charcoal-grey);
+    font: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.email {
+    color: var(--color-dark-grey);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
