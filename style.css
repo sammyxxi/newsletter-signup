@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --color-tomato: hsl(4, 100%, 67%);
+    --color-dark-grey: hsl(234, 29%, 20%);
+    --color-charcoal-grey: hsl(235, 18%, 26%);
+    --color-grey:  hsl(231, 7%, 60%);
+    --color-white: hsl(0, 0%, 100%);
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-roboto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
