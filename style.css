@@ -13,7 +13,7 @@
     --color-charcoal-grey: hsl(235, 18%, 26%);
     --color-grey:  hsl(231, 7%, 60%);
     --color-white: hsl(0, 0%, 100%);
-    --font-roboto: 'Roboto', sans-serif;
+    --font-roboto: 'Roboto', serif;
 }
 
 body {
@@ -23,11 +23,16 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 70%;
+    max-width: 375px;
+    height: 100%;
+    background-color: var(--color-charcoal-grey);
 }
 
-.sign-up {
-    padding: 0 20px;
+.sign-up, .sign-up-success {
+    display: grid;
+    max-width: 375px;
+    background-color: var(--color-white);
+    min-height: 100vh;
 }
 
 h1 {
@@ -50,6 +55,11 @@ li {
     font: 400;
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 .email {
