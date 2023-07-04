@@ -48,7 +48,7 @@ h1 {
 
 p {
     color: var(--color-charcoal-grey);
-    font: 400;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 2rem;
 }
@@ -56,7 +56,7 @@ p {
 li {
     list-style: none;
     color: var(--color-charcoal-grey);
-    font: 400;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 2rem;
 }
@@ -77,4 +77,14 @@ img {
 
 .hidden {
     display: none !important;
+}
+
+.button {
+    color: var(--color-white);
+    background-color: var(--color-charcoal-grey);
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    font-weight: 700;
+
 }
