@@ -36,7 +36,6 @@ body {
 
 .sign-up-body {
     padding: 12px;
-    justify-content: space-between;
 }
 
 h1 {
@@ -66,6 +65,8 @@ img {
     display: block;
     max-width: 100%;
 }
+
+
 
 .email {
     color: var(--color-dark-grey);
